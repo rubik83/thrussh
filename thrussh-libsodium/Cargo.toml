@@ -12,7 +12,7 @@ edition = "2018"
 [dependencies]
 libc = "0.2"
 lazy_static = "1.4"
-libsodium-sys = "0.2"
+libsodium-sys = { git = "https://github.com/rubik83/sodiumoxide.git" }
 
 [build-dependencies]
 pkg-config = "0.3"
